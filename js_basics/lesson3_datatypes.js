@@ -44,3 +44,26 @@ let myName = function(){
 }
 myName()
 console.log(typeof myName) // data type function object 
+
+// in JS [],{}, function(){} considered as a object and every object is true in boolean
+console.log(Boolean([]))
+console.log(Boolean({}))
+console.log(Boolean(function(){}))
+
+//Boolean(false)      // false
+//Boolean(0)          // false
+//Boolean(-0)         // false
+//Boolean(0n)         // false
+//Boolean("")         // false
+//Boolean(null)       // false
+//Boolean(undefined)  // false
+//Boolean(NaN)        // false
+
+//Boolean({})             // true
+//Boolean([])             // true
+//Boolean(function(){})   // true
+//Boolean("0")            // true
+//Boolean("false")        // true
+//Boolean(1)              // true
+//Boolean(-5)             // true
+//Boolean(Infinity)       // true

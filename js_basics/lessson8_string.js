@@ -5,7 +5,7 @@
 //let lastName = "Bajaj"
 //console.log(`My Name is ${firstName} ${lastName}`) // `` this is the backlits ${} this is the placeholder which is used to declare the variable and concate the variables
 
-let name = new String("Suhasit") //new is the keyword that will create the object of the String. this provide the key value pair of the string means 0 key : S value, like this every character in the string has key which can be access using [] and entering the key inside it
+let name = new String("Suhasit-Bajaj") //new is the keyword that will create the object of the String. this provide the key value pair of the string means 0 key : S value, like this every character in the string has key which can be access using [] and entering the key inside it
 //console.log(name) // output = [String : 'Suhasit] print string as object
 //console.log(name[0]) //use to access character of string at 0 place
 //console.log(typeof name) //here string is an object, and this object has some prototype
@@ -21,3 +21,6 @@ console.log(name.slice(0,5))//accept negative value and always ignore the last n
 console.log(name.trim()) //remove the space from the string 
 console.log(name.replace("S","A"))//replace the value or the character
 console.log(name.includes("q")) //show wether the value is present or not
+console.log(name.split("-"))// split the string according to the given conditions
+console.log(name.charCodeAt(4)) // this represent the code of the character access the character using the index numbber
+console.log(name.endsWith("Bajaj"))// shows wether the string ends with the define word or character output true and false

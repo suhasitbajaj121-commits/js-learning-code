@@ -3,7 +3,7 @@
 //console.log(name+age) // old method of concate
 //let firstName = "Suhasit" //this is the old way of declaring the string
 //let lastName = "Bajaj"
-//console.log(`My Name is ${firstName} ${lastName}`) // `` this is the backlits ${} this is the placeholder which is used to declare the variable and concate the variables
+//console.log(`My Name is ${firstName} ${lastName}`) // `` knwon as string interpulation this is the backlits ${} this is the placeholder which is used to declare the variable and concate the variables
 
 let name = new String("Suhasit-Bajaj") //new is the keyword that will create the object of the String. this provide the key value pair of the string means 0 key : S value, like this every character in the string has key which can be access using [] and entering the key inside it
 //console.log(name) // output = [String : 'Suhasit] print string as object

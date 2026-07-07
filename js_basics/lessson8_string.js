@@ -24,3 +24,8 @@ console.log(name.slice(0,5))//accept negative value and always ignore the last n
 //console.log(name.split("-"))// split the string according to the given conditions
 //console.log(name.charCodeAt(4)) // this represent the code of the character access the character using the index numbber
 //console.log(name.endsWith("Bajaj"))// shows wether the string ends with the define word or character output true and false
+
+//Symbol() unique value banata hai.
+//✅ Do Symbols kabhi equal nahi hote.
+//✅ Object mein Symbol ko key banana ho to [] use karte hain.
+//✅ student[id] se access karte hain, student.id se nahi.

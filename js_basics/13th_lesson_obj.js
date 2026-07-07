@@ -55,3 +55,6 @@ console.log(Object.keys(obj1))// key come in the form of array
 console.log(Object.entries(obj1)) // all the values come in the form of array
 console.log(obj1.hasOwnProperty("a")) // check wether the property is present or not means key
 console.log(obj1.length)
+
+//const object ko reassign karne se rokta hai, properties ko modify karne se nahi.
+

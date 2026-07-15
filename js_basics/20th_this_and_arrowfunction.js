@@ -13,7 +13,7 @@ obj1.message()
 
 /// this h vo function and arrow function me use nhi le skte , function m this kuch text content deta h and arrow function m empty object deta h {}
 
-// ARROW FUNCTION
+// ARROW FUNCTION k liye variable chaiye hota h
 const add= (num1 , num2)=>{
     return num1 + num2
 }
